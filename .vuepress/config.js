@@ -1,4 +1,4 @@
 module.exports = {
-    title: "foo",
-    description: "bar"
+    title: "keihino.info",
+    description: "kei blog"
 }

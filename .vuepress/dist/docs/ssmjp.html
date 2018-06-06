@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>keihino.info | ssmjp 2018/05 メモ&amp;感想</title>
+    <meta name="description" content="kei blog">
+    
+    
+    <link rel="preload" href="/assets/css/2.styles.a7cc9215.css" as="style"><link rel="preload" href="/assets/js/app.cda70001.js" as="script"><link rel="preload" href="/assets/js/0.e0b049f3.js" as="script"><link rel="prefetch" href="/assets/js/1.179c2850.js">
+    <link rel="stylesheet" href="/assets/css/2.styles.a7cc9215.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div><a href="/" class="home-link router-link-active"><!----><span class="site-name">
+      keihino.info
+    </span></a><div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""><!----></div><!----></div></header><div class="sidebar-mask"></div><div class="sidebar"><!----><!----></div><div class="page"><div class="content"><h1 id="ssmjp-2018-05-メモ-感想"><a href="#ssmjp-2018-05-メモ-感想" aria-hidden="true" class="header-anchor">#</a> ssmjp 2018/05 メモ&amp;感想</h1><p></p><div class="table-of-contents"><ul><li><a href="#arctanx93さん-kytの話">@arctanx93さん KYTの話</a></li><li><a href="#nri-中島さん-続・広く知ってほしいdnsのこと">NRI 中島さん　続・広く知ってほしいDNSのこと</a></li><li><a href="#shutingrzさん-「dnsトンネリングの話」-仮）">@shutingrzさん 「DNSトンネリングの話」(仮）</a></li><li><a href="#tcshさん-「宣言型デプロイツールの「正しい」使い方-考え方編-」">@tcshさん 「宣言型デプロイツールの「正しい」使い方 (考え方編)」</a></li><li><a href="#感想">感想</a></li></ul></div><p></p><h3 id="arctanx93さん-kytの話"><a href="#arctanx93さん-kytの話" aria-hidden="true" class="header-anchor">#</a> @arctanx93さん KYTの話</h3><ul><li>途中参加…</li><li>サーバ運用のヒヤリハットで非常にあるあるがいっぱいあって、明文化とルールづくりは大事だな、と感じた</li></ul><h3 id="nri-中島さん-続・広く知ってほしいdnsのこと"><a href="#nri-中島さん-続・広く知ってほしいdnsのこと" aria-hidden="true" class="header-anchor">#</a> NRI 中島さん　続・広く知ってほしいDNSのこと</h3><ul><li>https://www.slideshare.net/nakatomoorg/ssmjpdnssecurity2/</li><li>やったね、6000Viewこえたよ！ホッテントリだよ！</li><li>DNS Summit Day 2018 やるよ！</li><li>レジストラとかやるよ！難しいよ！</li><li>明日が最終出社日…</li><li>DNSのメカニズムおさらい
+<ul><li>分散データベースだよ！</li><li>名前解決するよ！</li><li>ネームサーバ
+<ul><li>ゾーン情報を保持・管理・公開するためのサーバ、権威サーバっていうよ！</li></ul></li></ul></li><li>今日のやっていき
+<ul><li>レジストラント・レジストラ・レジストリ 登録者・登録取次事業者・登録管理期間</li><li>WHOIS
+<ul><li>ドメインハイジャックへの対策</li></ul></li><li>レジストリロック・レジストラロック・レジストラ各社コンパネの認証機能強化
+<ul><li>ClientHoldｺﾜｲ
+<ul><li>一時的に利用制限しました! 情報おかしいよ!認証できてないよ!</li></ul></li></ul></li><li>夏のbind祭りお疲れさまでした</li><li>地震のとき、庁舎の中に権威が2台ともあって、冗長化しててもつながらなかった</li><li>MyEtherWalletで盗難されたやつ→DNSSECがあって、RPKIがあったら多分防げた</li><li>DNSブロッキングの話。やっぱりエンジニアが不幸になる、ユーザも不幸になる。</li></ul></li><li>まとめ
+空気なようなものだけど、壊れたら影響が広範囲になりがちだから理解や関心を高めてください！</li><li>おまけ: 深センいってきたよ! 楽しかった!</li></ul><h3 id="shutingrzさん-「dnsトンネリングの話」-仮）"><a href="#shutingrzさん-「dnsトンネリングの話」-仮）" aria-hidden="true" class="header-anchor">#</a> @shutingrzさん 「DNSトンネリングの話」(仮）</h3><ul><li><p>DNSの闇の話</p></li><li><p>とあるSOCのエンジニア</p><ul><li>#ssmjp初参加が先月</li></ul></li><li><p>HOMENOCとピアリングしてるって!</p></li><li><p>ドメインロック! FBIから止められた!おのれFBI!</p></li><li><p>DNSトンネリング</p><ul><li>DNS通信に別の目的を持った情報を含めること</li><li>暗号化通信とは違う、偽装通信</li><li>意味のあるデータを送信していることを知られないようにする</li><li>利用例: フィルタ環境下でのVPNやマルウェア</li></ul></li><li><p>マルウェアについて話します</p><ul><li>マルウェアがHTTP通信する理由
+<ol><li>ほとんどのOSで可能</li><li>プロキシがあっても抜けられる</li><li>様々なデータを柔軟に表現できる</li></ol></li><li>DNS通信でも同じ</li><li>マルウェアの通信例
+<ul><li>いっぱいある!9割以上標的型になってる!</li></ul></li><li>マルウェアの特徴からわかるトンネリングの手法
+<ul><li>サーバからクライアントへの命令はTXTが多い
+<ul><li>任意データを含められるから</li></ul></li><li>クライアントからサーバはqname</li></ul></li><li>デモ!
+<ul><li>AレコードでC2通信</li><li>TXTレコードでC2通信</li><li>Wiresharkでパケット見てたらおもしれー</li></ul></li><li>マルウェア作成者を出し抜けるか?
+<ul><li>直接通信する場合
+<ul><li>なんでもできる</li><li>フォレンジッカーにバレないように</li><li>EDNS0使うとqnameに出てこないのでバレにくい</li><li>デモ!</li></ul></li><li>キャッシュサーバを経由する場合</li><li>フルリゾルバを経由する場合
+<ul><li>再起問い合わせに不要なデータは削除される</li><li>同じqnameとRRはTTL秒キャッシュされる→マルウェア作成者からすると超じゃま</li></ul></li><li>サーバからクライアント
+<ul><li>TXTレコード
+<ul><li>大きすぎるとバレる</li><li>もともとギリ許せたがこうも使われてはダメになってきた</li></ul></li><li>RRSIG
+<ul><li>流れていてもギリ許されそう</li><li>200バイトくらいが現実的</li></ul></li><li>CNAME
+<ul><li>qtypeがAなのに文字列が返ってきてよいのが良い</li><li>自ゾーンの名前を示してwildcardすれば返ってくるので不審性が抑えられる</li></ul></li></ul></li><li>クライアントからサーバ
+<ul><li>qname
+<ul><li>フルリゾルバはスタブリゾルバのQUESTION SETIONのみを再帰問い合わせする</li><li>qname, qclass, qtypeのみ</li><li>結局qnameにするしかない</li><li>qnameを見とけば検知できる!</li></ul></li></ul></li><li>検出するには
+<ul><li>フルリゾルバを経由する場合
+<ul><li>サーバからクライアント
+<ul><li>普段使わないRRか</li><li>サイズが大きくないか</li><li>RCODEがNOERROR以外</li><li>TTLが小さくないか</li></ul></li><li>クライアントからサーバ
+<ul><li>qnameの長さ</li><li>ドメインの長さ</li><li>qnameの不審さ
+<ul><li>文字/単語のランダム性や符号化検知
+<ul><li>複雑性が高いとおかしい</li><li>単語の関連性をスコアリング
+<ul><li>ここらへんはinfobloxが特許持ってるらしい</li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li></ul></li><li><p>まとめ</p><ul><li>DNSトンネリングがひっそりと使われている</li><li>ロギングされないから標的型攻撃に使われる</li><li>直接通信できる場合は検知が非常に難しい
+<ul><li>フルリゾルバから以外をフィルタすればOK</li></ul></li><li>qnameを見よう</li></ul></li><li><p>QA</p><ul><li>AAAAは?
+<ul><li>まだ少ないから見つかりやすいんじゃね?</li></ul></li><li>ロギングって何を指してる?
+<ul><li>BINDのクエリログとか
+<ul><li>あーそりゃ取らないわ…</li></ul></li></ul></li></ul></li></ul><h3 id="tcshさん-「宣言型デプロイツールの「正しい」使い方-考え方編-」"><a href="#tcshさん-「宣言型デプロイツールの「正しい」使い方-考え方編-」" aria-hidden="true" class="header-anchor">#</a> @tcshさん 「宣言型デプロイツールの「正しい」使い方 (考え方編)」</h3><ul><li>あくまでも一つの見方です！建設的な議論をしましょう！</li><li>interopでも話すよ！JANOGでも話すよ！</li><li>運用自動化は運用標準化の一つ
+<ul><li>社内製手運用</li><li>自動化すれば定型化されるわけではない、手順書を飛ばしてはいけない。各実装に独自性が出てしまう</li><li>自動化ツール不具合時の手動対応まで想定するのがプロの自動化</li></ul></li><li>宣言型デプロイツールとは
+<ul><li>AWS Cloud Formation が今回のメイン</li><li>Ansible、Chef、etc</li></ul></li><li>メリット
+<ol><li>再現性が高い</li><li>操作がシンプルになる（移管可能）</li><li>再利用性が高い（配布可能）</li></ol></li><li>Cloud Formationの印象
+<ul><li>コレジャナイ感が消えない
+<ul><li>実運用とコンセプトのギャップが埋まらない</li></ul></li></ul></li><li>落とし穴がある
+<ul><li>管理職から任せられてしまい、実装者とメンバーのコミュニケーションだけという構図になりがち</li><li>実装者ノリノリ、メンバー雰囲気に流される</li><li>テンプレ・レシピ属人化、隠れた運用でカバーが発生</li><li>設計時のマルチリージョンが途中までだったときの運用でカバー、とかあるある感がすごい</li><li>Whyは復元できないことが多い
+<ul><li>処理内容は分かっても意図がわからない</li><li>今動いてるものが止まるわけではないけど、次のデプロイまでが制限時間にのリバエンすることになる</li></ul></li></ul></li><li>宣言型デプロイツール界隈で気づいたこと
+<ul><li>ノリノリな人の10割はイイね！っていってる</li><li>引き継いだけどイイねってなってる人見たこと無い</li><li>ChefからAnsible実装者になった人多数! しぬ! 身にしみてしぬ!</li><li>引き継いだけどイイねって人を探してるので連絡ください
+<ul><li>適切なドキュメントが一緒に納品されたケースは成功事例として唯一聞いたことがある</li><li>やっぱりドキュメント必要</li><li>あとは引き継がなくていい環境の人…</li></ul></li><li>ほとんど引き継ぎ失敗してるように見えるので、やっぱりドキュメント必要だよ</li><li>引き継げない自動化はプロの仕事ではない</li></ul></li><li>宣言型デプロイツールにおける二律背反
+<ul><li>再現性！ゴリゴリ自動化！</li><li>汎用性！標準化！全部これでデプロイするぜ！
+<ul><li>これが組み合わさると、3～4年後、メンテできない標準ツール、汎用性もいまいち、何かと手間がかかるコレジャナイ感</li></ul></li><li>デプロイツールに何を求めたいのか?
+<ul><li>再現性? 汎用性? 両立させようとするとほぼ確実に破綻する（あくまでも経験と観測の結果）</li><li>本番環境が確実に上がるのが個人的な期待</li><li>汎用性ホントいる? いらなくね?</li></ul></li></ul></li><li>汎用性、不都合な真実
+<ol><li>範囲が不明な汎用性は未定義と同義</li><li>汎用性の定義はうまくいかない</li><li>汎用性の確保はうまくいかない</li></ol></li><li>再現性の意外な真実
+<ul><li>汎用性と多機能と変更や更新をやらないと再現性が高くなるよ</li></ul></li><li>まとめ
+<ul><li>デプロイツールに求めるべきなのは再現性だと思ってるよ！</li><li>汎用性にこだわると、メリット1とメリット2は失われることに注意</li><li>自動化に必要なことは手順とコードが連動していること</li><li>ドキュメントいるよ！</li><li>再現性を軸にしようね！</li></ul></li><li>次回予告
+<ul><li>再現性はツールで、汎用性はプロセスで</li><li>テンプレートは使い捨て!</li></ul></li><li>QA
+<ul><li>ツールがすぐ使い古されてしまっててどうなのかなーと。ラッパーでよくないすか?
+<ul><li>生で叩くのはそろそろ意味ないかなーと思ってて、そろそろオーサリングツールになるのか?とは思っている。テンプレートは使い捨て、生成工程を作るツールがほしいかなと</li></ul></li><li>CloudFormation多機能すぎるからアレじゃなーと。k8sはきっちりわかれてる感あってよさそうでは?
+<ul><li>コンテナはまだキャッチアップできてないのでやっていきしたいです。やっぱりコンテナのようなもので閉じ込めたりとかすると分けやすいよね。</li><li>CloudFormationまだ全部カバーできてないので結局キメラ化しやすい。</li><li>koyhogeさん話してください！（質問者がkoyhogeさん）</li></ul></li></ul></li></ul><h3 id="感想"><a href="#感想" aria-hidden="true" class="header-anchor">#</a> 感想</h3><p>いやー、DNSトンネリングこれギリギリっすね。とても面白く聴かせていただきました。</p><p>はたのさんのLTはやはりうなづく内容で、あるある…ある…と思いながら聴いていました。</p><p>blog枠で行ってるのに、仕事が19時終わりのため毎回遅れるのをなんとかしたいですねえ…</p></div><!----><!----></div></div></div>
+    <script src="/assets/js/0.e0b049f3.js" defer></script><script src="/assets/js/app.cda70001.js" defer></script>
+  </body>
+</html>
